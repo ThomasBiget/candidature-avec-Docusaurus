@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Candidature de Thomas !',
-  tagline: 'Dinosaurs & React are cool',
+  tagline: 'Docusaurus & React are cool',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -39,10 +39,6 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/ThomasBiget/candidature-avec-Docusaurus',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,7 +56,7 @@ const config = {
         title: 'Ma candidature',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/me.jpg',
         },
         items: [
           {

@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import thomasPicture from '@site/static/img/me.jpg';
 
 import styles from './index.module.css';
 
@@ -14,6 +15,7 @@ function HomepageHeader() {
       <div className="container">
         <h1 className="hero__title">{siteConfig.title}</h1>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <p>Hello ! Bienvenue sur mon site de candidature pour l'alternance de React Hebdo & Docusaurus avec Sébastien Lorber ! Bonne visite</p>
       </div>
     </header>
   );

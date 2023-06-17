@@ -4,40 +4,41 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Ma présentations',
+    title: 'Ma présentation',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Quelques informations qui te permettront de mieux me connaître.
       </>
     ),
+    link: '/docs/ma-presentation',
   },
   {
     title: 'Mes compétences',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Une liste des compétences qui peuvent être utiles pour l'alternance.
       </>
     ),
+    link: '/docs/mes-competences',
   },
   {
     title: 'Mes projets',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Voici une liste de projets que j'ai réalisé et qui peuvent t'intéresser. Cela reprennds les projets développés durant ma formation et mes projets personnels.
       </>
     ),
+    link: '/docs/mes-projets',
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
+      <a href={link}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
@@ -45,6 +46,7 @@ function Feature({Svg, title, description}) {
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
+      </a>
     </div>
   );
 }

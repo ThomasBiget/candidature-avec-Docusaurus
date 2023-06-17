@@ -42,7 +42,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/ThomasBiget/candidature-avec-Docusaurus',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -83,8 +83,16 @@ const config = {
             title: 'Ce qui t\'intéresse',
             items: [
               {
-                label: 'Mes infos',
-                to: '/docs/intro',
+                label: 'Ma présentation',
+                to: '/docs/ma-presentation',
+              },
+              {
+                label: 'Mes compétences',
+                to: '/docs/mes-compétences',
+              },
+              {
+                label: 'Ma présentation',
+                to: '/docs/mes-projets',
               },
             ],
           },

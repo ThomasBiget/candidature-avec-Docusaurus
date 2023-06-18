@@ -2,6 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
 
+
 const FeatureList = [
   {
     title: 'Ma présentation',
@@ -28,23 +29,20 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Voici une liste de projets que j'ai réalisé et qui peuvent t'intéresser. Cela reprennds les projets développés durant ma formation et mes projets personnels.
+        Voici une liste de projets que j'ai réalisé et qui peuvent t'intéresser. Cela reprends les projets développés durant ma formation et mes projets personnels.
       </>
     ),
     link: '/docs/mes-projets',
   },
 ];
 
-function Feature({Svg, title, description, link}) {
+function Feature({title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
       <a href={link}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
-        <p>{description}</p>
+      <div className="text--center padding-horiz--md" id='title-text'>
+        <h3 className='text-blue-react'>{title}</h3>
+        <p className='text-grey'>{description}</p>
       </div>
       </a>
     </div>

@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: rgb(97, 219, 251);
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
@@ -17,14 +17,32 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+.img-size {
+  width: 200px;
+  margin-top: 2rem;
+}
+
+.text-white {
+  color: rgb(240, 238, 238);
+}
+
+.text-grey {
+  color: rgb(135, 136, 136);
+}
+
+.text-blue-react {
+  color: rgb(97, 219, 251);
+}
+
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: rgb(97, 219, 251);
+  --ifm-color-primary-dark: rgb(97, 219, 251);
+  --ifm-color-primary-darker: rgb(97, 219, 251);
+  --ifm-color-primary-darkest: rgb(97, 219, 251);
+  --ifm-color-primary-light: rgb(97, 219, 251);
+  --ifm-color-primary-lighter: rgb(97, 219, 251);
+  --ifm-color-primary-lightest: rgb(97, 219, 251);
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }

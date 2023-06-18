@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Mes projets
 
+La majorité des projets que j'ai réalisé l'ont été durant ma formation. J'ai pu en rappatrier quelques uns sur mon GitHub et pour le reste c'est que j'ai réalisé depuis la fin de ma formation.
+
 ## Mon portfolio - thomasbiget.surge.sh
 
 Et oui, mon portfolio, c'est un peu la vitrine de “mon magasin”. C'est pour cette raison que je souhaitais quelque chose qui me ressemble, un clin d'oeil à ce qui m'a poussé à devenir développeur.

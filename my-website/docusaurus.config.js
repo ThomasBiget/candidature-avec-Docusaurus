@@ -66,6 +66,11 @@ const config = {
             label: 'Mes infos',
           },
           {
+            href: '/alternance/alternance',
+            label: 'Infos Alternance',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/ThomasBiget',
             label: 'GitHub',
             position: 'right',

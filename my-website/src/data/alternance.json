@@ -1,0 +1,36 @@
+{
+    "salaire": 1800,
+    "duree": 16,
+    "cout_entreprise": 1800,
+    "aide": 2000,
+    "OPCO": "Atlas",
+    "url": "https://www.opco-atlas.fr/",
+    "tel": "01 43 46 01 10",
+    "type": "Contrat de professionnalisation",
+    "age": 34,
+    "avantages": [
+        {
+        "text": "Je suis en entreprise les 2/3 du temps",
+        "id": 1   
+        },
+        {
+        "text": "Je suis autonome et j'apprends vite",
+        "id": 2
+        },
+        {
+        "text": "Je suis habitué au full remote",
+        "id": 3
+        },
+        {
+        "text": "Ayant été entrepeneur, je vais m'investir pour t'aider à développer ton business (je ferai en sorte de ne pas être une charge mais un investissement)",
+        "id": 4
+        },
+        {
+        "text": "Je suis super enthousiaste à l'idée de travailler sur le développement de Docusaurus (j'ai vraiment aimé le concept de générateur de site static et le fait que ce soit un projet open source) et aussi de t'aider à développer ta newsletter",
+        "id": 5
+        }
+    ],
+    "inconvenients": [
+        "Coût de l'alternance plus élevé qu'un apprenti plus jeune"
+    ]
+}

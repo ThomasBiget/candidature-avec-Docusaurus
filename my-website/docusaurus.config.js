@@ -71,6 +71,11 @@ const config = {
             position: 'left',
           },
           {
+            href: '/calculateur/calculateur',
+            label: 'Calculateur',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/ThomasBiget',
             label: 'GitHub',
             position: 'right',

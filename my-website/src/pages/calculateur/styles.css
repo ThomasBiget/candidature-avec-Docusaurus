@@ -1,0 +1,25 @@
+h1, h2 {
+    margin: 1rem;
+}
+button {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: rgb(4, 108, 139);
+    border: 1px solid rgb(4, 108, 139);
+    border-radius: 5px;
+}
+
+.select {
+    color: rgb(41, 40, 40);
+    margin: 1rem;
+    width: 40%;
+}
+
+.resultat-salaire {
+    color: rgb(4, 108, 139);
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(4, 108, 139);
+    border-radius: 5px;
+    width: 40%;
+}
